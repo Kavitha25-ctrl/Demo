@@ -1,0 +1,17 @@
+{
+  "name": "smart-career-tracker-root",
+  "version": "1.0.0",
+  "description": "Smart Student Career & Skill Tracker Web Application",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
